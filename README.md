@@ -1,2 +1,25 @@
-# pschedule.github.io
-권성재 포트폴리오 — Python, RAG systems, and AI backend projects
+# 권성재 포트폴리오
+
+GitHub Pages에 바로 배포할 수 있는 정적 포트폴리오입니다. 별도 패키지 설치나 빌드가 필요하지 않습니다.
+
+## 파일
+
+- `index.html`: 포트폴리오 본문과 링크
+- `styles.css`: 데스크톱·모바일 스타일 및 인쇄 스타일
+- `.nojekyll`: Jekyll 처리 없이 정적 파일을 게시하기 위한 파일
+
+## GitHub Pages 게시
+
+1. GitHub에서 `PSCHEDULE.github.io` 저장소를 준비합니다. 비공개 저장소에서 Pages를 사용하려면 해당 기능을 지원하는 계정 플랜이 필요합니다.
+2. 이 폴더의 파일을 저장소 `main` 브랜치의 최상위 경로에 업로드합니다.
+3. 저장소 **Settings → Pages → Build and deployment**에서 **Deploy from a branch**를 선택합니다.
+4. 브랜치는 **main**, 폴더는 **/(root)**로 설정하고 저장합니다.
+5. GitHub의 배포가 완료되면 `https://pschedule.github.io/`를 열어 확인합니다.
+
+이 안내의 주소는 배포 완료 후 사용하게 될 예상 주소이며, 파일 생성만으로 공개되는 것은 아닙니다.
+
+## 편집 및 확인
+
+로컬에서는 `index.html`을 브라우저로 열어 확인할 수 있습니다. 프로젝트·학력·연락처는 `index.html`에서 수정합니다. 페이지에 외부 스크립트, 분석 도구, 쿠키 및 빌드 의존성은 포함되어 있지 않습니다.
+
+프로젝트 서술은 제공된 포트폴리오와 확인된 저장소 내용을 바탕으로 작성했습니다. 연구 관심 분야는 수행 실적과 구분했습니다.
